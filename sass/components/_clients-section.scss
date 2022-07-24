@@ -1,0 +1,43 @@
+.clients {
+
+& h2 {
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--main-color);
+margin-top: 0;
+margin-bottom:50px;
+
+}
+&-list  {
+	display: flex;
+	flex-direction: row;
+
+}
+&-item  {
+	height:92px;
+	width:170px;
+	display: inline-flex;
+	border: 1px solid var(--eight-color);
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+}
+
+&-icon {
+	fill:var(--eight-color);
+}
+&-item:hover .clients-icon {
+	fill:var(--four-color);
+	transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+&-item:hover  {
+	border: 1px solid var(--four-color);
+}
+}

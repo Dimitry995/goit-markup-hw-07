@@ -1,0 +1,66 @@
+.social {
+	width:270px;
+	height:90px;
+	display: flex;
+
+& ul {
+	height:90px;
+	width:270px;
+	padding-top: 28px;
+	padding-left: 50px;
+}
+& li {
+	display: inline;
+	flex-direction: row;
+	width:100%;
+	height:90px;
+	justify-content: center;
+	align-items: center;
+}
+
+& a:hover {
+	width:44px;
+	height:44px;
+	border-radius: 50%;
+	background-color: var(--four-color);
+	transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+& svg:focus {
+	background-color: #2196F3;
+}
+&-list  {
+	width:220px;
+	display:inline-block;
+}
+&-item:first-child {
+margin-left:0;	
+}
+&-item  {
+	height:44px;
+	width:44px;
+	display:inline-block;
+	margin-left:10px;
+}
+&-link  {
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+&-icon {
+	fill:var(--eight-color);
+}
+&-item:hover{
+	border-radius: 50%;
+	background-color: var(--four-color);
+	transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+&-item:hover .social-icon  {
+	fill:var(--third-color);
+}
+}
