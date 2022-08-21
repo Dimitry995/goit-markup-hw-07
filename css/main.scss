@@ -1,16 +1,14 @@
 @import './utils/fonts';
 @import './utils/normalize';
 @import './utils/variables';
-@import './utils/base';
 
 @import './layouts/container';
+@import './layouts/content';
+@import './layouts/filters';
 
 @import './components/header';
 @import './components/hero-section';
-@import './components/filters';
-@import './components/content-portfolio';
-@import './components/info';
-@import './components/img';
-@import './components/person';
-@import './components/clietns';
-@import './components/footer';0
+@import './components/info-section';
+@import './components/img-section';
+@import './components/person-section';
+@import './components/clients-section';
