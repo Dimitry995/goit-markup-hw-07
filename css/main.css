@@ -126,6 +126,7 @@ a.logo  {
     display: flex;
     align-items: center;
     color:var(--main-color);
+    padding-top: 32px;
     }
 .top__list {
 	margin-left:auto;
