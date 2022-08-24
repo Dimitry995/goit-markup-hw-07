@@ -1,7 +1,7 @@
 .person {
 	background-color: var(--five-color);
 
-& h2 {
+&__title--h2 {
 margin: 0 auto;
 font-size: 36px;
 font-weight: 700;
@@ -12,7 +12,7 @@ color:var(--main-color);
 padding-bottom: 50px;
 
 }
-& h3 {
+&__title--h3 {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 19px;
@@ -22,12 +22,12 @@ padding-bottom: 50px;
 	margin-bottom:15px;
 
 }
-&-block {
+&__block {
 	padding:25px;
 		width:270px;
 	box-sizing: border-box;
 }
-&-title-h4 {
+&__title--h4 {
 font-size: 16px;
 letter-spacing: 0.03em;
 text-align: center;
@@ -35,14 +35,14 @@ color:var(--secondary-color);
 margin-bottom:20px;
 font-weight:400;
 }
-&-list  {
+&__list  {
 	width: 1200px;
     padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-&-item  {
+&__item  {
 			display:inline-block;
 			background-color:var(--third-color);
 			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -50,7 +50,7 @@ border-radius: 0px 0px 4px 4px;
 	width:270px;
 	box-sizing: border-box;
 }
-&  img {
+&__img {
 	width:270px;
 	height:260px;
 }
