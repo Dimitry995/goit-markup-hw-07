@@ -1,19 +1,19 @@
 .img {
 	padding-top:0;
 
-& ul {
+&__list {
 	margin-top:50px;
 	width:1200px;
 }
-& li {
+& __item {
 		display:inline-block;
 		margin-right:30px;
 		position: relative;
 }
-& li:last-child {
+& __item:last-child {
 	margin-right:0px;
 }
-& h2 {
+&__title--h2 {
 	margin:0 auto;
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
@@ -25,12 +25,12 @@
 	color: #var(--main-color);
 
 }
-& img {
+&__img {
 	width:370px;
 	height:294px;
 	
 }
-&-block {
+&__block {
 	position:absolute;
 	height:70px;
 	width:100%;
@@ -41,7 +41,7 @@
     justify-content: center;
 	align-items: center;
 }
-&-h3 {
+&__title--h3 {
 font-weight: 700;
 text-align: center;
 letter-spacing: 0.03em;
