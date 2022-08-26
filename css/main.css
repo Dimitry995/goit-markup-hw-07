@@ -967,12 +967,12 @@ color: var(--third-color);
 	transform:translateY(-100%);
 	visibility: visible;
 }
-.content__link:focus {
+a.content__link:focus {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 	outline:none;
 	border:2px solid var(--four-color);
 }
-.content__link:focus .overlay {
+a.content__link:focus .overlay {
 	transform:translateY(-100%);
 	visibility: visible;
 }
