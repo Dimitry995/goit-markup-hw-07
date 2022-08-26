@@ -949,7 +949,6 @@ margin-bottom:20px;
 	height: 294px;
 	background: rgba(33, 150, 243, 0.9);
 	transform:translateY(100%); 
-	transition: transform 250ms ease;
 	visibility: hidden;
 	color:var(--third-color);
 }
@@ -965,6 +964,7 @@ color: var(--third-color);
 }
 .content__item:hover .overlay {
 	transform:translateY(-100%);
+	transition: transform 250ms ease;
 	visibility: visible;
 }
 a.content__link:focus {
@@ -974,6 +974,7 @@ a.content__link:focus {
 }
 a.content__link:focus .overlay {
 	transform:translateY(-100%);
+	transition: transform 250ms ease;
 	visibility: visible;
 }
 .content__item:nth-child(7) {
