@@ -107,9 +107,6 @@ a.logo  {
     padding-left: 0;
 }
 
-.navigation__list {
-	margin-left:93px;
-}
 .navigation__item:firts-child {
 	margin-left:0;
 }
