@@ -1130,6 +1130,12 @@ button.send {
 	border-radius: 4px;
 	border:none;
 }
+button.send:hover {
+	background-color: var(--eleven-color);
+}
+button.send:focus {
+	background-color: var(--eleven-color);
+}
 .footer-icon {
 	position:absolute;
 	top:13px;
