@@ -1,14 +1,14 @@
-@import './utils/fonts';
-@import './utils/normalize';
-@import './utils/variables';
+@import './utils/_fonts.scss';
+@import './utils/_normalize.scss';
+@import './utils/_variables.scss';
 
-@import './layouts/container';
-@import './layouts/content';
-@import './layouts/filters';
+@import './layouts/_container.scss';
+@import './layouts/_content.scss';
+@import './layouts/_filters.scss';
 
-@import './components/header';
-@import './components/hero-section';
-@import './components/info-section';
-@import './components/img-section';
-@import './components/person-section';
-@import './components/clients-section';
+@import './components/_header.scss';
+@import './components/_hero-section.scss';
+@import './components/_info-section.scss';
+@import './components/_img-section.scss';
+@import './components/_person-section.scss';
+@import './components/_clients-section.scss';
