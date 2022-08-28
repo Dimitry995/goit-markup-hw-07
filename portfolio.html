@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="uk">
     <head>
-        <title>ДЗ7</title>
+        <title>ДЗ5</title>
 		<meta charset="utf-8"/>
 	    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,8 +9,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-	    			<link rel="stylesheet" href="./css/main.css"/>
-	    			<link rel="stylesheet" href="./css/main.min.css"/>
+			<linl rel="stylesheet" href="css/reset.css"/>
+	    			<link rel="stylesheet" href="css/main.css"/>
+					<link rel=”icon” href=”./favicon.ico” type=”image/x-icon”>
     </head>
     <body>
 	    <header class="menu">
@@ -19,7 +20,7 @@
 <nav class="navigation">
 <ul class="navigation__list">
 			    <li class="navigation__item"><a class="navigation__link" href="./index.html">Студія</a></li>
-	<li class="navigation__item"><a class="navigation__link current" href="./portfolio.html">Портфоліо</a></li>
+	<li class="navigation__item"><a class="navigation__link" href="./portfolio.html">Портфоліо</a></li>
 <li class="navigation__item"><a class="navigation__link" href="#Kontakti">Контакти</a></li>
 </ul>
 </nav>
@@ -27,24 +28,25 @@
 				    <li class="top__item--right"><a class="top__link--right" lang="en" href="mailto:example@mail.com"><svg width='16' height='12' class="top-icon"><use href="./images/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
 				    <li class="top__item--right"><a class="top__link--right" href="#Phone"><svg width='10' height='16' class="top-icon"><use href="./images/symbol-defs.svg#icon-phone"></use></svg>+380961111111</a></li>
 								    </ul>
+									<a class="menu__burger" href="menu.html"><img src="./images/menu_40px.svg"/></a>
 									</div>
 </header>
       <main>
+	  <div class="container">
 		<section class="content">
-<div class="container">
 		<h1 class="filters__title">Портфоліо з роботами</h1>
 	    <nav class="filters">
 		<ul class="filters__list"> 
-<li class="filters__item"><button class="filters__link" type="button" >Все</button></li>
-<li class="filters__item"><button class="filters__link" type="button" >Веб-сайти</button></li>
-<li class="filters__item"><button class="filters__link" type="button" >Додатки</button></li>
-<li class="filters__item"><button class="filters__link" type="button" >Дизайн</button></li>
-<li class="filters__item"><button class="filters__link" type="button" >Маркетинг</button></li>
+<li class="filters__item"><a class="filters__link" type="button" href="#Studio">Все</a></li>
+<li class="filters__item"><a class="filters__link" type="button" href="#WebSite">Веб-сайти</a></li>
+<li class="filters__item"><a class="filters__link" type="button" href="#Kontakti">Додатки</a></li>
+<li class="filters__item"><a class="filters__link" type="button" href="#Email">Дизайн</a></li>
+<li class="filters__item"><a class="filters__link" type="button" href="#Phone">Маркетинг</a></li>
 </ul>    
 	    </nav>
 		<ul class="content__list">
 		<li class="content__item">
-			<a href="" class="content__link">
+			<a href="#9" class="content__link">
 				<div class="content__img">
 		<img src="./images/9.jpg" alt="Веб-сайт"/>
 	</div>
@@ -166,15 +168,14 @@
 		<p class="overlay__paragraf">Ресурс пропонує комплексні пропозиції з різним рівнем функціонала та сервісов. Все це дозволить відвідувачу отримати  інформацію о компанії або часному лиці.</p>
 	</div>
 
-		<div class="content__block">
+		<div class="content-block">
 		<h3 class="content__title--h3">Growing Business</h3>
 		<p class="content__title--h4">Додаток</p>
 	</div>
 	</a>
 		</li>
-</ul>
-	</div>
 	      </section>
+		  </div>
       </main>
 		<footer id="footer">
 			<div class="footer__container">
